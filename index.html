@@ -4,6 +4,7 @@
     <style>
         /*! Google fonts */
         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+        @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
 
         /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
         html {
@@ -15,6 +16,10 @@
             text-rendering: optimizeLegibility;
             -webkit-font-smoothing: antialiased;
             text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        }
+
+        .mono {
+            font-family: 'Source Code Pro', monospace;
         }
 
         body {
@@ -71,7 +76,7 @@
 
         <p><span id="ts">0</span></p>
 
-        <p>#<span id="hex">000000</span></p>
+        <p class="mono">#<span id="hex">000000</span></p>
     </div>
 </div>
 <p class="footer">A quick boredom project by <a href="http://terribleplan.com/">terribleplan</a> - 2014</p>
