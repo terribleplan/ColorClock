@@ -1,0 +1,66 @@
+/*! Google fonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    /* The font looks a little pixelated, hopefully browsers don't suck too bad */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.mono {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    color: #bbb;
+    background: #000;
+    transition: color .8s, background .4s;
+    margin: 0;
+}
+
+a {
+    background: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Our CSS */
+.vcc {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.vc {
+    display: table-cell;
+    width: 320px;
+    vertical-align: middle;
+}
+
+.vc > p {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+p.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 1em;
+}
